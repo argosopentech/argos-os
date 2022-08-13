@@ -9,7 +9,9 @@ sudo cp argos-os-profile.sh /etc/profile.d/
 # Clear existing desktop backgrounds
 sudo rm -rf /usr/share/backgrounds/*
 
+# Install files
 sudo cp -r root/* /
+cp -r home/* ~
 
 # Install Abricotine
 if [ $(sudo dpkg-query -l | grep abricotine | wc -l) -lt 1 ]

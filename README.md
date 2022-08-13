@@ -1,5 +1,5 @@
 # Argos OS
-Argos Open Tech rice for Ubuntu
+Argos Open Tech rice for Ubuntu Linux
 
 ## Install
 ```

@@ -13,3 +13,6 @@ audacity
 zsh
 docker.io
 docker-compose
+libicu-dev
+python3-icu
+pkg-config

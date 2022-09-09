@@ -7,7 +7,7 @@ Argos Open Tech rice for Ubuntu Linux
 ```
 git clone https://github.com/argosopentech/argos-os.git
 cd argos-os
-./setup.sh
+./init
 
 ```
 

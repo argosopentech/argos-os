@@ -19,3 +19,6 @@ then
 	wget -O run/abricotine_1.1.4_amd64.deb https://github.com/brrd/abricotine/releases/download/v1.1.4/abricotine_1.1.4_amd64.deb
 	sudo dpkg -i run/abricotine_1.1.4_amd64.deb
 fi
+
+# Enable ufw
+sudo ufw enable

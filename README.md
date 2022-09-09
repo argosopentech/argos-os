@@ -9,3 +9,5 @@ cd argos-os
 
 ```
 
+![European Space Agency Milky Way 360° Panorama By Hubble](usr/share/backgrounds/ESO_-_Milky_Way.jpg)
+

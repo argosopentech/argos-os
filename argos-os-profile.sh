@@ -3,7 +3,7 @@ git config --global core.editor "vim"
 git config --global pull.rebase true
 
 # Aliases
-alias venv="virtualenv env && source env/bin/activate"
+alias pydir="virtualenv env && source env/bin/activate"
 
 # Vim editing mode
 set -o vi

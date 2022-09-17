@@ -7,9 +7,6 @@ sudo snap install ipfs
 
 sudo cp argos-os-profile.sh /etc/profile.d/
 
-# Clear existing desktop backgrounds
-sudo rm -rf /usr/share/backgrounds/*
-
 # Install files
 sudo cp -r root/* /
 cp -r home/* ~

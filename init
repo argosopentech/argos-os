@@ -18,5 +18,14 @@ then
 	sudo dpkg -i run/abricotine_1.1.4_amd64.deb
 fi
 
+# Install Monero Wallet
+if [ ! -f /usr/bin/monero-wallet-gui ]
+then
+	wget -O run/monero-gui-linux.tar.bz2 https://downloads.getmonero.org/gui/linux64
+	tar -xvjf run/monero-gui-linux.tar.bz2 -C run/
+	sudo cp run/monero-gui-v*/monero-wallet-gui /usr/bin/
+	sudo cp run/monero-gui-v*/monerod /usr/bin/
+fi
+
 # Enable ufw
 sudo ufw enable

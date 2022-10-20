@@ -24,3 +24,5 @@ shotcut
 flatpak
 gimp
 ffmpeg
+clamav
+clamav-daemon

@@ -1,6 +1,7 @@
 # Configure Git
 git config --global core.editor "vim"
 git config --global pull.rebase true
+git config --global init.defaultBranch master
 
 # Aliases
 alias pydir="virtualenv env && source env/bin/activate"

@@ -5,6 +5,7 @@ git config --global init.defaultBranch master
 
 # Aliases
 alias pydir="virtualenv env && source env/bin/activate"
+alias unixtime="date +%s"
 
 # Vim editing mode
 set -o vi

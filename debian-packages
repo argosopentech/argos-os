@@ -27,3 +27,4 @@ ffmpeg
 clamav
 clamav-daemon
 tmux
+mypy

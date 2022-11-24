@@ -19,6 +19,7 @@ pkg-config
 screen
 sl
 transmission
+transmission-cli
 gnome-tweaks
 shotcut
 flatpak

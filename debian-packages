@@ -30,3 +30,4 @@ clamav-daemon
 tmux
 mypy
 pokerth
+isort

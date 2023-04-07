@@ -31,3 +31,6 @@ fi
 
 # Enable ufw
 sudo ufw enable
+
+# Remove annoying update notifier popups
+sudo apt remove update-notifier update-notifier-common

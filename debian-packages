@@ -31,4 +31,5 @@ clamav-daemon
 tmux
 mypy
 pokerth
+shotcut
 isort

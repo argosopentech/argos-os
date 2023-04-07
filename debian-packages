@@ -20,6 +20,7 @@ screen
 sl
 transmission
 transmission-cli
+transmission-gtk
 gnome-tweaks
 shotcut
 flatpak

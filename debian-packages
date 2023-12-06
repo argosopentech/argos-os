@@ -29,6 +29,7 @@ gimp
 ffmpeg
 clamav
 clamav-daemon
+clamtk
 tmux
 mypy
 pokerth

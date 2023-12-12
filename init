@@ -17,6 +17,8 @@ add_line_to_bashrc "source /etc/profile.d/argos-os-profile.sh"
 
 
 # Install Abricotine
+# Warning project discontinued
+# https://github.com/brrd/abricotine/issues/347
 if [ $(sudo dpkg-query -l | grep abricotine | wc -l) -lt 1 ]
 then
 	wget -O run/abricotine_1.1.4_amd64.deb https://github.com/brrd/abricotine/releases/download/v1.1.4/abricotine_1.1.4_amd64.deb

@@ -5,7 +5,16 @@ sudo cp -r root/* /
 cp -r home/* $HOME
 
 sudo cp argos-os-profile.sh /etc/profile.d/
-echo "source /etc/profile.d/argos-os-profile.sh\n" >> $HOME/.bashrc
+
+add_line_to_bashrc() {
+    line_to_add="$1"
+    if ! grep -q "$line_to_add" "$HOME/.bashrc"; then
+        echo "$line_to_add" >> "$HOME/.bashrc"
+    fi
+}
+
+add_line_to_bashrc "source /etc/profile.d/argos-os-profile.sh"
+
 
 # Install Abricotine
 if [ $(sudo dpkg-query -l | grep abricotine | wc -l) -lt 1 ]

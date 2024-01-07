@@ -38,3 +38,5 @@ isort
 nmap
 qtbase5-dev
 qtcreator
+clang-format
+clang

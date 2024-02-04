@@ -37,6 +37,7 @@ shotcut
 isort
 nmap
 qtbase5-dev
+figlet
 qtcreator
 clang-format
 clang

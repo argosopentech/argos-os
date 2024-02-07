@@ -38,6 +38,7 @@ isort
 nmap
 qtbase5-dev
 figlet
+virtualbox
 qtcreator
 clang-format
 clang

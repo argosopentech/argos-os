@@ -39,6 +39,7 @@ nmap
 qtbase5-dev
 figlet
 virtualbox
+dolphin
 qtcreator
 clang-format
 clang

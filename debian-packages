@@ -37,6 +37,7 @@ shotcut
 isort
 nmap
 qtbase5-dev
+keepassxc
 figlet
 virtualbox
 dolphin

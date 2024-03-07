@@ -39,7 +39,6 @@ nmap
 qtbase5-dev
 keepassxc
 figlet
-virtualbox
 dolphin
 qtcreator
 clang-format

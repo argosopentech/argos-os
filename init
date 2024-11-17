@@ -15,7 +15,7 @@ add_line_to_bashrc() {
 
 add_line_to_bashrc "source /etc/profile.d/argos-os-profile.sh"
 
-# Enable ufw
+# Enable ufw firewall
 sudo ufw enable
 
 # Remove annoying update notifier popups

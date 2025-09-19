@@ -35,6 +35,7 @@ tmux
 mypy
 pokerth
 shotcut
+v4l-utils
 isort
 nmap
 qtbase5-dev

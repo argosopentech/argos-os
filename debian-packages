@@ -8,7 +8,6 @@ zip
 black
 bmon
 htop
-pulseeffects
 audacity
 zsh
 fish
@@ -46,9 +45,7 @@ qtcreator
 clang-format
 clang
 gedit
-rkhunter
 firefox
-xonotic
 supertuxkart
 tcc
 fortune

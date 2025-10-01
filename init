@@ -19,4 +19,4 @@ add_line_to_bashrc "source /etc/profile.d/argos-os-profile.sh"
 sudo ufw enable
 
 # Remove annoying update notifier popups
-sudo apt remove update-notifier update-notifier-common
+# sudo apt remove update-notifier update-notifier-common
